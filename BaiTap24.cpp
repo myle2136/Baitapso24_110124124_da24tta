@@ -2,8 +2,8 @@
 #include <stdlib.h>
 typedef struct 
 {
-    int tu;   // T? s?
-    int mau;  // M?u s?
+    int tu;   
+    int mau;  
 } 
 	PHAN_SO;
 // Ham nhap phan so 
@@ -59,7 +59,7 @@ PHAN_SO congPhanSo(PHAN_SO ps1, PHAN_SO ps2)
     return ps;
 }
 
-// H‡m tru hai ph‚n so
+// H√†m tru hai ph√¢n so
 PHAN_SO truPhanSo(PHAN_SO ps1, PHAN_SO ps2) 
 {
     PHAN_SO ps;
